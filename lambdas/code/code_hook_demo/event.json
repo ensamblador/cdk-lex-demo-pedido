@@ -1,0 +1,111 @@
+{
+    "sessionId": "325521812836630",
+    "inputTranscript": "pedido sdjjsd",
+    "interpretations": [
+        {
+            "intent": {
+                "slots": {
+                    "PedidoId": {
+                        "shape": "Scalar",
+                        "value": {
+                            "originalValue": "sdjjsd",
+                            "resolvedValues": []
+                        }
+                    }
+                },
+                "confirmationState": "None",
+                "name": "EstadoPedido",
+                "state": "InProgress"
+            },
+            "nluConfidence": 0.82
+        },
+        {
+            "intent": {
+                "slots": {},
+                "confirmationState": "None",
+                "name": "Ayuda",
+                "state": "InProgress"
+            },
+            "nluConfidence": 0.72
+        },
+        {
+            "intent": {
+                "slots": {},
+                "confirmationState": "None",
+                "name": "Despedida",
+                "state": "InProgress"
+            },
+            "nluConfidence": 0.6
+        },
+        {
+            "intent": {
+                "slots": {},
+                "confirmationState": "None",
+                "name": "FallbackIntent",
+                "state": "InProgress"
+            }
+        },
+        {
+            "intent": {
+                "slots": {},
+                "confirmationState": "None",
+                "name": "Saludo",
+                "state": "InProgress"
+            },
+            "nluConfidence": 0.33
+        }
+    ],
+    "proposedNextState": {
+        "intent": {
+            "slots": {
+                "PedidoId": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "sdjjsd",
+                        "resolvedValues": []
+                    }
+                }
+            },
+            "confirmationState": "None",
+            "name": "EstadoPedido",
+            "state": "InProgress"
+        },
+        "dialogAction": {
+            "slotToElicit": "PedidoId",
+            "type": "ElicitSlot"
+        },
+        "prompt": {
+            "attempt": "Initial"
+        }
+    },
+    "responseContentType": "text/plain; charset=utf-8",
+    "sessionState": {
+        "sessionAttributes": {},
+        "intent": {
+            "slots": {
+                "PedidoId": {
+                    "shape": "Scalar",
+                    "value": {
+                        "originalValue": "sdjjsd",
+                        "resolvedValues": []
+                    }
+                }
+            },
+            "confirmationState": "None",
+            "name": "EstadoPedido",
+            "state": "InProgress"
+        },
+        "originatingRequestId": "8cd9e26b-b79b-457c-a6a9-1daa27f4a68e"
+    },
+    "messageVersion": "1.0",
+    "invocationSource": "DialogCodeHook",
+    "inputMode": "Text",
+    "bot": {
+        "aliasId": "TSTALIASID",
+        "aliasName": "TestBotAlias",
+        "name": "demo",
+        "version": "DRAFT",
+        "localeId": "es_US",
+        "id": "Y42GMBDZF7"
+    }
+}
